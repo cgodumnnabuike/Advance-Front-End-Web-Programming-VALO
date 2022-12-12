@@ -29,7 +29,7 @@ function populateContent(agent)
 	abilities.forEach(function(ability){
 		const abiLi=document.createElement("li");
 		console.log(ability.description)
-		abiLi.textContent=ability.displayName;
+		abiLi.textContent=`${ability.displayName} - ${ability.description}`;
 		abilitiesEl.appendChild(abiLi);
 	});
 	
