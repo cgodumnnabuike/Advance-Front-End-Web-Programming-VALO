@@ -1,0 +1,23 @@
+{
+  "name": "valo",
+  "version": "1.0.0",
+  "description": "This repository contains a JavaScript application that features two pages and dynamically generated content.",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "sass ./sass/style.scss ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgodumnnabuike/Advance-Web-Programming-VALO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgodumnnabuike/Advance-Web-Programming-VALO/issues"
+  },
+  "homepage": "https://github.com/cgodumnnabuike/Advance-Web-Programming-VALO#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
