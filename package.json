@@ -19,5 +19,8 @@
   "homepage": "https://github.com/cgodumnnabuike/Advance-Web-Programming-VALO#readme",
   "devDependencies": {
     "sass": "^1.56.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }

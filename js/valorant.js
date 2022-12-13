@@ -25,7 +25,7 @@ function populateList(agents)
 } //end of populateList, do not remove this line
 
 function init(){
-	// loadData("data/countries.json",populateList);
+	
 
 	loadData ("https://valorant-api.com/v1/agents?isPlayableCharacter=true",populateList);
 }
