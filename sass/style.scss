@@ -1,6 +1,8 @@
 @import "../node_modules/bootstrap/scss/functions";
-$headings-color: #69F598;
 
+$headings-color: #66FCF1;
+$body-bg: #1F2833;
+$green-blue: #45A29E;
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -13,16 +15,14 @@ $headings-color: #69F598;
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 
+#description{
+    color: $green-blue
+}
+#main-p{
+    color: $green-blue
+}
+#abilities{
+    color: $green-blue;
+}
 
-
-// font-stack: Helvetica, sans-serif;
-// $primary-color: #417DF5;
-
-
-// h1{
-//         font: 100% $font-stack;
-//         color: $primary-color;
-
-
-// }
 
