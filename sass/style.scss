@@ -3,6 +3,9 @@
 $headings-color: #66FCF1;
 $body-bg: #1F2833;
 $green-blue: #45A29E;
+$navbar-light-active-color: $green-blue;
+$navbar-light-toggler-border-color: $green-blue;
+
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -34,5 +37,4 @@ $green-blue: #45A29E;
 #abilities{
     color: $green-blue;
 }
-
 

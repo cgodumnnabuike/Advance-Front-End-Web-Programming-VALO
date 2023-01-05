@@ -14,14 +14,18 @@ function populateList(agents)
 	agents.data.forEach(function(agent){
 		const newLi=document.createElement("li");
 		const newLink=document.createElement("a");
+		const newImg=document.createElement("img");
 		newLink.textContent=agent.displayName;
+		newImg.src=agent.killfeedPortrait;
 		//adds a querystring to the URL e.g. details.html?id=2
 		newLink.setAttribute("href","details.html?id="+agent.uuid);
 		newLi.appendChild(newLink);
+		newLi.appendChild(newImg);
 		agentsFragment.appendChild(newLi);
 	})
 	const agentsList=document.querySelector("#Agent-list");
 	agentsList.appendChild(agentsFragment);
+	
 } //end of populateList, do not remove this line
 
 function init(){
