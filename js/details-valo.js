@@ -18,10 +18,12 @@ function populateContent(agent)
 	const displayNameEl=document.querySelector("#displayName");
 	const descriptionEl=document.querySelector("#description");
 	const abilitiesEl=document.querySelector("#abilities");
-	
+	const carouselEl=document.getElementById('carousel-image');
+	const carouselEl2=document.getElementById('carousel-image1');
 	displayNameEl.textContent = agent.data.displayName;
 	descriptionEl.textContent = agent.data.description;
-	// abilitiesEl.textContent = agent.data.abilities 
+	carouselEl.src= agent.data.fullPortrait;
+	carouselEl2.src = agent.data.background;
 	
 
 	
