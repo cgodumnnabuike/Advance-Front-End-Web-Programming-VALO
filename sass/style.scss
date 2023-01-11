@@ -2,9 +2,11 @@
 
 $headings-color: #66FCF1;
 $body-bg: #1F2833;
+$footer-bg: #0B0C10;
 $green-blue: #45A29E;
 $navbar-light-active-color: $green-blue;
 $navbar-light-toggler-border-color: $green-blue;
+$font-family:  Lucida Console;
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -17,6 +19,7 @@ $navbar-light-toggler-border-color: $green-blue;
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/offcanvas";
 @import "../node_modules/bootstrap/scss/close";
 @import "../node_modules/bootstrap/scss/transitions";
@@ -26,14 +29,27 @@ $navbar-light-toggler-border-color: $green-blue;
 
 
 #description{
-    color: $green-blue
+    color: $green-blue;
+    font-family: $font-family;
 }
 #main-p{
-    color: $green-blue
+    color: $green-blue;
+    font-family: $font-family;
 }
 #abilities{
     color: $green-blue;
+    font-family: $font-family;
 }
 #role{
     color: $green-blue;
+    font-family: $font-family;
+}
+.navbar-brand{
+    font-family: $font-family;
+}
+.nav-item{
+    font-family: $font-family;
+}
+.footer{
+    background-color: $footer-bg;
 }

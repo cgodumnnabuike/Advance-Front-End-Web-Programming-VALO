@@ -19,7 +19,6 @@ function populateContent(agent)
 	const descriptionEl=document.querySelector("#description");
 	const abilitiesEl=document.querySelector("#abilities");
 	const roleEl=document.querySelector("#role");
-	const voiceLine=document.getElementById('voiceLine');
 	displayNameEl.textContent = agent.data.displayName;
 	descriptionEl.textContent = agent.data.description;
 	const carouselEl=document.getElementById('carousel-image');
@@ -27,8 +26,7 @@ function populateContent(agent)
 	carouselEl.src= agent.data.fullPortrait;
 	carouselEl2.src = agent.data.background;
     roleEl.textContent = `${agent.data.role.displayName} - ${agent.data.role.description}`;
-	voiceLine.src = agent.data.voiceLine;
-
+	
 	
 	const abilities = agent.data.abilities
 	abilities.forEach(function(ability){
