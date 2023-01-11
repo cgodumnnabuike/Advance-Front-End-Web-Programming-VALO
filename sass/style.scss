@@ -1,11 +1,52 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+@import "../node_modules/bootstrap/scss/functions";
 
+$headings-color: #66fcf1;
+$body-bg: #1f2833;
+$footer-bg: #0b0c10;
+$green-blue: #45a29e;
+$navbar-light-active-color: $green-blue;
+$navbar-light-toggler-border-color: $green-blue;
+$font-family: Lucida Console;
 
-h1{
-        font: 100% $font-stack;
-        color: $primary-color;
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/offcanvas";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
-
+#description {
+  color: $green-blue;
+  font-family: $font-family;
 }
-       
+#main-p {
+  color: $green-blue;
+  font-family: $font-family;
+}
+#abilities {
+  color: $green-blue;
+  font-family: $font-family;
+}
+#role {
+  color: $green-blue;
+  font-family: $font-family;
+}
+.navbar-brand {
+  font-family: $font-family;
+}
+.nav-item {
+  font-family: $font-family;
+}
+.footer {
+  background-color: $footer-bg;
+}
