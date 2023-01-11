@@ -18,13 +18,16 @@ function populateContent(agent)
 	const displayNameEl=document.querySelector("#displayName");
 	const descriptionEl=document.querySelector("#description");
 	const abilitiesEl=document.querySelector("#abilities");
-	const carouselEl=document.getElementById('carousel-image');
-	const carouselEl2=document.getElementById('carousel-image1');
+	const roleEl=document.querySelector("#role");
+	const voiceLine=document.getElementById('voiceLine');
 	displayNameEl.textContent = agent.data.displayName;
 	descriptionEl.textContent = agent.data.description;
+	const carouselEl=document.getElementById('carousel-image');
+	const carouselEl2=document.getElementById('carousel-image1');
 	carouselEl.src= agent.data.fullPortrait;
 	carouselEl2.src = agent.data.background;
-	
+    roleEl.textContent = `${agent.data.role.displayName} - ${agent.data.role.description}`;
+	voiceLine.src = agent.data.voiceLine;
 
 	
 	const abilities = agent.data.abilities
@@ -34,9 +37,9 @@ function populateContent(agent)
 		abiLi.textContent=`${ability.displayName} - ${ability.description}`;
 		abilitiesEl.appendChild(abiLi);
 	});
+
 	
-	
-	
+
 
 }
 

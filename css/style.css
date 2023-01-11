@@ -7382,13 +7382,8 @@ progress {
   color: #45A29E;
 }
 
-.carousel-inner {
-  max-width: 510px;
-}
-
-.carousel-inner .carousel-item img {
-  height: 100%;
-  width: auto;
+#role {
+  color: #45A29E;
 }
 
 /*# sourceMappingURL=style.css.map */

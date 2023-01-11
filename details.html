@@ -58,32 +58,77 @@
         </div>
       </div>
     </nav>
-    <h1 id="displayName"></h1>
-	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<img id="carousel-image" class="d-block w-100 img-fluid" alt="...">
-		  </div>
-		  <div class="carousel-item c-item">
-			<img id="carousel-image1" class="d-block w-100 img-fluid" alt="...">
-		  </div>
-		  <div class="carousel-item c-item">
-			<img id="carousel-image2" class="d-block w-100 img-fluid" alt="...">
-		  </div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
-	  </div>
-    <ul>
-      <li id="description"></li>
-      <li id="abilities"></li>
-    </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 id="displayName"></h1>
+          <h2 id="role"></h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img
+                  id="carousel-image"
+                  class="d-block w-100 c-img"
+                  alt="Slide 1"
+                />
+              </div>
+              <div class="carousel-item c-item">
+                <img
+                  id="carousel-image1"
+                  class="d-block w-100 c-img"
+                  alt="Slide 2"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li id="description"></li>
+            <li id="abilities"></li>
+          </ul>
+          <audio id="voiceLine"></audio>
+        </div>
+      </div>
+    </div>
     <script src="js/details-valo.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>

@@ -5,8 +5,6 @@ $body-bg: #1F2833;
 $green-blue: #45A29E;
 $navbar-light-active-color: $green-blue;
 $navbar-light-toggler-border-color: $green-blue;
-$slide-height: 100rem;
-$image-height: auto;
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -39,21 +37,6 @@ $image-height: auto;
 #abilities{
     color: $green-blue;
 }
-
-// .carousel-item{
-//     height: $slide-height;
-// }
-// .c-img{
-//     height: $image-height;
-//     object-fit: cover;
-// }
-
-.carousel-inner{
-    max-width:510px;
-}
-
-.carousel-inner .carousel-item img{
-	height:100%;
-	width:auto;
-    
+#role{
+    color: $green-blue;
 }
